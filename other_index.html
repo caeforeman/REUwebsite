@@ -1,0 +1,224 @@
+<html>
+
+	<head>
+		<!-- title and other meta data -->
+		<title>REU Site</title>
+
+		<!-- style sheets -->
+		<link rel="stylesheet" type="text/css" href="index.css" />
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	</head>
+
+	<style>	
+
+	:root {
+  			--blue: #49798C;
+  			--green: #7D8C5D;}
+
+	.bgimg{
+		  background-position: center;
+		  background-size: cover;
+		  background-image: url("bns_3.jpg");
+		  min-height: 70%;}
+
+	.contact-circle{
+		  width: 210px;
+		  height: 210px;
+		  border-radius: 50%;
+		  font-size: 15px;
+		  color: white;
+		  line-height: 20px;
+			padding-top: 60px;
+		  text-align: center;
+			vertical-align: middle;
+		  background-color:var(--blue)}
+
+	.w3-button:hover{
+			color:#000!important;
+			background-color:var(--green)!important}
+
+	.tag-box{
+			background-color:var(--blue);
+			color:white;
+			display:inline-block;
+			padding-top: 2px;
+			padding-bottom: 2px;
+			padding-left:10px;
+			padding-right:10px;
+			text-align:center}.w3-badge{border-radius:50%}
+
+
+
+	</style>
+	
+
+	<body>
+		<!-- all website content that will be visible to the user go in the body -->
+
+	<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="#background" class="w3-button w3-block w3-black">BACKGROUND</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#methods" class="w3-button w3-block w3-black">METHODS</a>
+    </div>
+		<div class="w3-col s3">
+			<a href="#results" class="w3-button w3-block w3-black">RESULTS</a>
+		</div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT ME</a>
+    </div>
+  </div>
+</div>
+
+	<!-- header with image -->
+	<header class="bgimg w3-display-container">
+		<div class="w3-display-bottomleft w3-center w3-padding-large">
+    		<span class="w3-text-white">CIERA REU at Northwestern University</span>
+  		</div>
+  		<div class="w3-display-middle w3-center">
+    		<span class="w3-text-white" style="font-size:35px">Identifying Optical Counterparts to<br>Gravitational Wave Events</span>
+  		</div>
+	    <div class="w3-display-bottomright w3-center w3-padding-large">
+	    	<span class="w3-text-white">Saarah Hall<br>University of Pennsylvania </span>
+	  	</div>
+	</header>
+	<!-- link for image credit: https://www.spaceflightinsider.com/missions/space-observatories/merging-neutron-stars-emit-gravitational-waves-light/attachment/gw170817-neutron-star-merger_shot-1_still-4_rsz-1600x900/ -->
+
+	<!-- add a background color and large text to the whole page -->
+	<div class="w3-black">
+
+
+		<!-- here is the text that I will display -->
+		<!--<h3 onmouseover="myFunctionOn()"
+			onmouseout="myFunctionOff()"> <u>Saarah Hall</u> !</h3>-->
+
+		<!-- background container -->
+		<div class="w3-container" id="background">
+			<div class="w3-content" style="max-width:675px">
+			<h5 class="w3-center w3-padding-64"><span class="tag-box w3-wide">BACKGROUND</span></h5>
+
+  					<figure style= "float:right;">
+  						<img src="bnsgif.gif" alt="artist depiction of a binary neutron star merger" style="width:200px">
+						<figcaption style="font-size:8pt;text-align: center;">(Credit: NASA's Goddard <br>Space Flight Center/CI Lab)</figcaption>
+  					</figure>
+  					
+				 <p>Gravitational waves (GWs) -- extremely powerful ripples in space <i>and</i> time -- are caused by the acceleration of massive objects. Most notably, we can detect GWs when two massive objects orbit around each other and eventually combine into one. If those two objects are neutron stars, the merging results in an explosion called a <i>"kilonova"</i>.</p>
+					
+				 <p>Since kilonovae can be seen in the optical band, these binary neutron star (BNS) events are progenitors of both GW waves and electromagnetic (EM) waves.</p>
+				 	<img src="timeline.png" alt= GW timeline  width="100" />
+
+				 <p>The LIGO/Virgo Collaboration (LVC) has been detecting gravitational waves since 2015, but there has only been one well-studied BNS event to date, GW170817. Thus, it is the only example of a GW event with an EM counterpart. This lack of data motivates our search for future EM counterparts. That's where our research group comes in!</p>
+
+					
+			<p><a href="https://arxiv.org/abs/2012.11700"><img src="S.jpg" alt="SAGUARO logo" style="width: 200px; float:left;" /><a>Searches After Gravitational-waves Using ARizona Observatories (SAGUARO) is a telescope network dedicated to GW optical counterpart discovery.  We began operations in 2019, coinciding with LIGO-Virgo's 3rd observing run (O3). During O3, we utilized the 1.5m Mt. Lemmon telescope near Tucson, Arizona as our search engine. In preparation for O4, we have made updates to our telescope network and software to facilitate optical counterpart identification. For more information on SAGUARO, click on our logo!</p>
+			<!--HYPERLINK to kerry and mike!!!!!!!!!!!!!!!!!-->
+
+  			</div>
+		</div>
+
+		<!-- methods container -->
+		<div class="w3-container" id="methods">
+			<div class="w3-content" style="max-width:675px">
+			<h5 class="w3-center w3-padding-64"><span class="tag-box w3-wide">METHODS</span></h5>
+			<h3>SAGUARO's Previous Methods</h3>
+			<p><figure style= "float:right;">
+  						<img src="flowchart.png" alt="SAGUARO flowchart" style="width:300px">
+						<figcaption style="font-size:8pt;text-align: center;">Flowchart of SAGUARO's candidate vetting process<br><a href="https://arxiv.org/abs/2012.11700">from Paterson et al.</a></figcaption>
+  					</figure>
+  				Our optical counterpart identification process can be split into two parts: "automatic vetting" and "human vetting." Changes were only made to the "automatic" steps, and an outline is as follows.</p>
+	
+			<p>Once a GW event is detected and the LVC disseminates its localization maps, we utilize the 1.5m Mt. Lemmon telescope, SAGUARO's discovery engine, to take new images of the sky. The Mt. Lemmon telescope is a part of the Catalina Sky Survey<!--cite-->, which visits fields four times in a ~30-minute span to identify moving objects. With the LVC maps to guide us, SAGUARO adds sets of 12 fields within the GW localization region to the CSS observing queue at top priority based on highest probability. The new images are then run through our image subtraction software. Image subtraction requires a reference image and a new image, and produces a difference image that visualizes the changes between the two. The reference images are constructed from 3 years worth of CSS data, thus providing deep images to use as templates.</p>
+
+			<p>ZOGY<!--cite-->, the image subtraction software we used, takes many steps to calibrate the two input images before returning the difference image. In addition, ZOGY returns an "Scorr" image, which is created from the difference image. This "Scorr" image accounts for astrometric and signal noise, and the pixel values are equivalent to the signal-to-noise ratio (S/N). Thus, this image visualizes the most significant differences between the two input images. ZOGY finally returns a list of candidates with high significance (S/N > 5) to be vetted further.</p>
+
+			<h3>Updates</h3>
+				<img src="bok.jpeg" alt= "Bok_telescope" style="width:220px;padding:20px;float:left;" />
+				
+  			<p>The main update between our O3 and O4 operations is an expansion to our telescope network. Previously, the 1.5m Mt. Lemmon telescope operated as our only discovery engine. We have since incorporated the 2.3m Bok Telescope, which can provide us with deeper images as well as more color information than the Mt. Lemmon telescope. The addition of an extra telescope will prove useful for events with large localizations. The deep images from the Bok telescope will allow us to probe events that are fainter or further away.</p>
+  			<p>
+
+  			<p><img src="reduction.png" alt="bok_reduction" style="width:150px;padding:8px;float:right;" />Consequently, our software must be adapted to work with this new telescope. We have taken steps to reduce Bok telescope data so that we can get meaningful ZOGY results when we use Bok images as inputs.</p>
+  				
+  			<p>A final important update is the construction of reference images compatible with the Bok telescope data. Instead of using CSS data, we explored other sky surveys from different telescopes and with good sky coverage for the Bok telescope. The surveys in question were the Beijing-Arizona Sky Survey (BASS) and Dark Energy Camera Legacy Survey (DECaLS).<!--CITE--> Both BASS and DECaLS offer deep images with coverage similar to that of CSS. </p>	
+  				
+  				
+
+  				<figure class='w3-center'>
+  						<img src="skysurveys.png" alt="sky survey map" style="width:500px;padding:20px">
+						<figcaption style="font-size:8pt;text-align: center;">Sky coverage map of the surveys in question, BASS and DECaLS, as well as CSS</figcaption>
+  					</figure>
+
+
+  			</div>
+		</div>
+
+		<!-- results container -->
+		<div class="w3-container" id="results">
+			<div class="w3-content" style="max-width:675px">
+			<h5 class="w3-center w3-padding-64"><span class="tag-box w3-wide">RESULTS</span></h5>
+				<img src="ZOGYresult.png" alt= zogy_results width="100" />
+  			<p>To test the merit of BASS reference images, we ran ZOGY using a new Bok image containing a known transient. The results are pictured above. ZOGY identified 8 candidates with S/N values above 5. The known transient was given a S/N value of ~4 in the "Scorr" image, which is not ideal since it is below our established S/N cutoff. This is in large part due to the prevailing misalignment between input images and the current standing of Bok data reduction. As another test, we lowered the S/N cutoff to 3 and found that ZOGY returned ~800 candidates. Ideally, ZOGY would identify the transient with a high S/N ratio and return only a handful of candidates to vet further.</p>
+  			<p>After this analysis of our recent network and software updates, we present recommendations for further preparation for O4. In regards to image subtraction, we recommend the use of BASS and DECaLS data as reference images alongside Bok telescope data as new images. To achieve better candidate identification with ZOGY, Bok data should be further reduced to account for persisting artifacts. Further, astrometric misalignment should be addressed either by using Software for Calibrating AstroMetry and Photometry (SCAMP) or a local version of Astrometry.net<!--CITE-->. In addition, similar ZOGY tests should be performed using DECaLS reference data. It is also important to establish a tiling strategy that makes efficient use of both the Bok and Mt. Lemmon telescopes. With all these suggestions at hand, we hope to enter O4 with a search strategy capable of identifying these elusive optical counterparts.</p>
+  			</div>
+		</div>
+
+
+		<!-- about container -->
+		<div class="w3-container w3-padding-48" id="about">
+			<div class="w3-content" style="max-width:675px">
+			<h5 class="w3-center w3-padding-64"><span class="tag-box w3-wide">ABOUT ME</span></h5>
+
+  			<p> <img src="me!.png" style="width:35%;max-width:1000px;border-radius:50%;padding:10px;float:left"/> <br>My name is Saarah Hall and I'm an undergraduate physics major at the University of Pennsylvania. I'm originally from Aurora, IL, so it is my pleasure to be back in the Chicagoland area working with Northwestern for the summer. I've had the wonderful opportunity to work with Dr. Kerry Paterson and Dr. Wen-fai Fong, among many others, conducting research on gravitational waves and their electromagnetic counterparts. <strong>Contact Info:<strong/> saarah[at]sas.upenn.edu<br></p>
+  
+			
+			</div>
+  			
+		</div>
+
+
+
+
+		<script>
+			function myFunctionOn() {
+  			document.getElementById("image").style="width:50%";
+			}
+		</script>
+
+		<script>
+			function myFunctionOff() {
+  			document.getElementById("image").style="width:100%";
+			}
+		</script>
+
+
+		<!-- load my javascript -->
+		<script src="dropdown.js"></script>
+
+		<!-- Footer -->
+		<footer class="w3-center w3-dark-grey w3-padding-64 w3-large">
+			<div class="w3-content" style="max-width:850px">
+				<p> This material is based upon work supported by the National Science Foundation under Grant No. AST-1757792, a Research Experiences for Undergraduates (REU) grant awarded to CIERA at Northwestern University.
+					Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</p>
+
+				<div class="w3-row">
+					<div class="w3-third w3-container">
+						<img src="upennlogo.png" class=" w3-margin-top"></img>
+					</div>
+					<div class="w3-third w3-container">
+						<img src="nsf_logo.png" class="w3-margin"></img>
+					</div>
+					<div class="w3-third w3-container">
+						<img src="n_cieralogo.png" class=" w3-margin-top"></img>
+					</div>
+				</div>
+				<p class="w3-center">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-white w3-text-black">w3.css</a></p>
+			</div>
+		</footer>
+
+	</body>
+
+</html>
